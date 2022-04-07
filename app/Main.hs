@@ -1,13 +1,14 @@
 module Main where
 
-import Advent.Of.Code (Day (..), Part (..), runAdvent)
+import Advent.Of.Code (Day (..), Part (..), runAdvent')
 import Data.Text (Text)
 import Day1 qualified
 import Day2 qualified
 import Day3 qualified
+import Paths_aoc2021 (version)
 
 main :: IO ()
-main = runAdvent 2021 solve
+main = runAdvent' (Just version) 2021 solve
 
 solve :: Day -> Part -> Maybe (Text -> Text)
 solve Day1 Part1 = Just Day1.part1
