@@ -28,7 +28,6 @@ executable aoc2021
   ghc-options:
     -Wall -Wcompat -Werror=incomplete-patterns
     -fno-show-valid-hole-fits -Wno-unticked-promoted-constructors
-    -fdefer-type-errors
 
   default-extensions:
     BlockArguments
