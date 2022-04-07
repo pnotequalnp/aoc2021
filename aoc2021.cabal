@@ -1,6 +1,6 @@
 cabal-version: 2.4
 name:          aoc2021
-version:       0.2.0.0
+version:       0.3.3.2
 synopsis:      Advent of Code 2021 Solutions
 description:   Personal solutions to the AoC 2021 challenges
 category:      Web
